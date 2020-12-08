@@ -36,7 +36,7 @@ if __name__ == '__main__':
     print('Tests passed.')
 
     # Get the input string and replace the two values to restore the "1202 program alarm state".
-    with open('2/input.txt') as f:
+    with open('day02/input.txt') as f:
         input = [int(i) for i in f.read().split(',')]
         input[1] = 12
         input[2] = 2
